@@ -32,7 +32,6 @@ const Category = () => {
   return (
     <div className="bg-white relative mb-20">
       <div className="relative">
-        {/* Header Section */}
         <div className="text-center flex flex-col sm:flex-row justify-between items-center sm:items-start relative px-4 sm:px-6 md:px-8">
           <div className="flex justify-center sm:justify-start items-center sm:ml-28 flex-col w-full sm:w-[90%] relative">
             <p className="text-gray-500 font-mono font-semibold tracking-wider mb-2 text-sm sm:text-base">
@@ -47,7 +46,6 @@ const Category = () => {
           </div>
         </div>
 
-        {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 sm:gap-8 md:gap-28 px-4 sm:px-8 md:px-16 lg:px-32 mt-10 relative z-20 font-sans">
           {category.map((item, index) => (
             <div
@@ -56,10 +54,8 @@ const Category = () => {
                  shadow-lg hover:shadow-lg
               `}
             >
-              {/* Icon Container with Rectangle Background */}
               <div className="flex justify-center mb-6 relative">
                 <div className="relative inline-flex items-center justify-center">
-                  {/* Rectangle Background Image */}
                   <img
                     src="/Rectangle 158.png"
                     alt=""
@@ -70,7 +66,6 @@ const Category = () => {
                       transform: "translate(-50%, -50%)",
                     }}
                   />
-                  {/* Icon Circle */}
                   <div
                     className={`w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center rounded-full transition-all duration-300 relative z-10 `}
                   >
@@ -83,12 +78,10 @@ const Category = () => {
                 </div>
               </div>
 
-              {/* Title */}
               <h3 className="text-sm sm:text-md font-semibold text-gray-800 mb-3">
                 {item.title}
               </h3>
 
-              {/* Description */}
               <p className="text-gray-500 text-xs sm:text-sm leading-relaxed">
                 {item.description}
               </p>
@@ -96,9 +89,6 @@ const Category = () => {
           ))}
         </div>
 
-        {/* Red Rectangle Image - positioned absolutely */}
-
-        {/* Mobile version of red rectangle */}
         <div className="absolute -bottom-8 left-[460px] transform -translate-x-1/2 z-10 hidden lg:block xl:block">
           <img src="/Rectangle 157.png" alt="" className="w-16 h-auto" />
         </div>

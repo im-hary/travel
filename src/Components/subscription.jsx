@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-// import { EnvelopeIcon } from "@heroicons/react/24/outline";
 import { FaRegEnvelope } from "react-icons/fa";
 export default function NewsletterSubscribe() {
   const [email, setEmail] = useState("");

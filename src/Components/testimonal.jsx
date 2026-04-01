@@ -1,10 +1,10 @@
 export default function TestimonialSection() {
   const brands = [
-    { src: "/image 27.png",no:1 },
-    { src: "/image 28.png",no:2 },
-    { src: "/image 29.png",no:3 },
-    { src: "/image 30.png",no:4 },
-    { src: "/image 31.png",no:5 },
+    { src: "/image 27.png", no: 1 },
+    { src: "/image 28.png", no: 2 },
+    { src: "/image 29.png", no: 3 },
+    { src: "/image 30.png", no: 4 },
+    { src: "/image 31.png", no: 5 },
   ];
 
   return (
@@ -92,10 +92,11 @@ export default function TestimonialSection() {
         </div>
 
         <div className="mt-14 grid grid-cols-2 items-center gap-x-6 gap-y-5 sm:grid-cols-3 md:gap-x-8 lg:mt-20 lg:grid-cols-5">
-          {brands.map((brand,inx) => (
+          {brands.map((brand, inx) => (
             <div
               key={brand.no}
-              className="flex h-20 items-center justify-center rounded-xl text-center sm:h-24 bg-white shadow-lg">
+              className="flex h-20 items-center justify-center rounded-xl text-center sm:h-24 bg-white shadow-lg"
+            >
               <img
                 src={brand.src}
                 alt="Brand Logo"

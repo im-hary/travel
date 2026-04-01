@@ -84,13 +84,13 @@ export default function HeroSection() {
               Best Destinations Around the World
             </p>
 
-            <div className="font-volkhov font-bold text-[#181E4B] leading-tight text-xl sm:text-4xl md:text-5xl lg:text-[70px]">
+            <div className="font-volkhov font-bold text-[#181E4B] leading-tight text-xl sm:text-4xl md:text-5xl lg:text-[70px] z-30">
               Travel,
               <span className="relative inline-block ml-2">
-                enjoy
+                <span className="relative z-20">enjoy</span>
                 <img
                   src="/OrangeDecore.png"
-                  className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[80px] sm:w-[120px] md:w-[150px]"
+                  className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[80px] sm:w-[120px] md:w-[300px] z-10"
                   alt=""
                 />
               </span>
@@ -120,7 +120,7 @@ export default function HeroSection() {
           <div className="order-1 md:order-2 relative flex justify-center items-center">
             <img
               src="/Decore.png"
-              className="absolute top-[-120px] sm:top-[-150px] md:top-[-200px] w-[800px] sm:w-[350px] md:w-[1000px]  !left-[30px] hidden lg:block   z-5"
+              className="absolute top-[-120px] sm:top-[-150px] md:top-[-200px] w-[800px] sm:w-[350px] md:w-[1000px]  !left-[30px] hidden lg:block z-5"
               alt=""
             />
 
